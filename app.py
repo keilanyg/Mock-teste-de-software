@@ -19,6 +19,6 @@ se houver erro, ou a recuperação não for bem sucedida ele retornará uma mens
 def processar_dados(api_url):
     data = obter_dados_API(api_url)
     if data:
-        return f"Processed data: {data['message']}"
+        return f"DADO PROCESSADO: {data['message']}"
     else:
-        return "Error processing data"
+        return "ERRO AO PROCESSAR DADO"
